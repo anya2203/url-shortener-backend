@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-from app.db.database import Base, engine
 from app.api.url import router as url_router
+from app.db.database import Base, engine
 
 # Create tables on startup (fine for SQLite/dev; in real prod you'd use Alembic migrations)
 Base.metadata.create_all(bind=engine)

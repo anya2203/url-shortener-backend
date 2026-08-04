@@ -1,5 +1,6 @@
-from pydantic import BaseModel, HttpUrl
 from datetime import datetime
+
+from pydantic import BaseModel, HttpUrl
 
 
 class URLCreateRequest(BaseModel):
@@ -14,4 +15,3 @@ class URLResponse(BaseModel):
 
     class Config:
         from_attributes = True  # allows creating this from a SQLAlchemy object
-        
