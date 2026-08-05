@@ -1,4 +1,7 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner.png" alt="URL Shortener Banner" width="100%">
+</p>
+
 
 # 🔗 URL Shortener API
 
